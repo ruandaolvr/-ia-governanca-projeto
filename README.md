@@ -1,4 +1,4 @@
-# 🤖 Projeto Integrador de IA e Governança
+# 🤖 Projeto Integrador de Ética e Governança em IA
 
 **Disciplina:** Ética em Inteligência Artificial
 **Turma:** 3º Ano B — Ensino Médio Técnico
