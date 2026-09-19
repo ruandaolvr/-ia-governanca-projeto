@@ -12,7 +12,7 @@ Projeto interdisciplinar que investiga um caso real de viés algorítmico, prop�
 
 | Integrante | Papel Scrum | GitHub |
 |---|---|---|
-| _Nome 1_ | Product Owner | [@usuario1](https://github.com/usuario1) |
+| Ruanda | Product Owner / Dev | [@usuario1](https://github.com/usuario1) |
 | _Nome 2_ | Scrum Master | [@usuario2](https://github.com/usuario2) |
 | _Nome 3_ | Dev — Governança | [@usuario3](https://github.com/usuario3) |
 | _Nome 4_ | Dev — Dados | [@usuario4](https://github.com/usuario4) |
