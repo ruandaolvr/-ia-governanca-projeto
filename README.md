@@ -14,9 +14,8 @@ Projeto interdisciplinar que investiga um caso real de viés algorítmico, prop�
 |---|---|---|
 | Ruanda | Product Owner / Dev | [@ruandaolvr](https://github.com/ruandaolvr) |
 | _Nome 2_ | Scrum Master | [@usuario2](https://github.com/usuario2) |
-| _Nome 3_ | Dev — Governança | [@usuario3](https://github.com/usuario3) |
-| _Nome 4_ | Dev — Dados | [@usuario4](https://github.com/usuario4) |
-| _Nome 5_ | Dev — Versionamento | [@usuario5](https://github.com/usuario5) |
+
+
 
 ## 📂 Estrutura do Repositório
 
