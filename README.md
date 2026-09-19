@@ -87,4 +87,4 @@ git push origin feature/relatorio-parte1
 Projeto de uso exclusivamente pedagógico, desenvolvido para a disciplina de Ética em Inteligência Artificial.
 
 ---
-<p align="center"><i>Feito com 💙 pela equipe — Projeto Integrador de IA e Governança, 3º Bimestre.</i></p>
+<p align="center"><i>Feito com 💙 pela equipe: Ruanda e Giovanna Vitória — Projeto Integrador de IA e Governança, 3º Bimestre.</i></p>
