@@ -37,7 +37,7 @@ Analisa um caso real de viés em reconhecimento facial (estudo *Gender Shades* e
 ## 📋 Parte 2 — Planejamento Ágil e Quadro Kanban
 Define papéis Scrum, backlog de user stories com critérios de aceitação, estimativas via Planning Poker (escala Fibonacci) e limites de WIP.
 📄 [Acessar planejamento](./planejamento-agil-kanban.md)
-🔗 **Quadro Trello:** https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador
+🔗 **Quadro Trello:** https://trello.com/b/8xYqIO9S/ia-e-governanca-projeto-intregador
 
 ## 💻 Parte 3 — Laboratório de Dados (Google Colab)
 Notebook Python com leitura de CSV simulado (`pandas`), estatísticas descritivas e uma auditoria exploratória simples de viés por região.
@@ -85,7 +85,7 @@ git push origin feature/relatorio-parte1
 
 ## 🔗 Links do projeto
 
-- 📋 [Quadro Kanban no Trello](https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador)
+- 📋 [Quadro Kanban no Trello](https://trello.com/b/8xYqIO9S/ia-e-governanca-projeto-intregador)
 - 📊 [Notebook de análise de dados no Google Colab](https://colab.research.google.com/github/ruandaolvr/-ia-governanca-projeto/blob/main/notebooks/laboratorio_dados_credito.ipynb)
 - 💻 [Repositório no GitHub](https://github.com/ruandaolvr/-ia-governanca-projeto)
 
