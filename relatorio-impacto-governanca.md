@@ -3,7 +3,7 @@
 **Disciplina:** Ética em Inteligência Artificial
 **Turma:** 3º Ano B — Ensino Médio Técnico
 **Bimestre:** 3º Bimestre
-**Equipe:** _[Nome dos integrantes]_
+**Equipe:** Ruanda Nascimento Oliveira, Giovanna Vitória de Moraes
 **Papéis Scrum:** _[Product Owner / Scrum Master / Devs — ver Parte 2]_
 
 ---
