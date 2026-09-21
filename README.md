@@ -12,7 +12,7 @@ Projeto interdisciplinar que investiga um caso real de viés algorítmico, prop�
 
 | Integrante | Papel Scrum | GitHub |
 |---|---|---|
-| Ruanda | Product Owner / Dev | [@ruandaolvr](https://github.com/ruandaolvr) |
+| Ruanda Oliveira | Product Owner / Dev | [@ruandaolvr](https://github.com/ruandaolvr) |
 | Giovanna Vitória | Scrum Master / Dev | [@GV0601](https://github.com/GV0601) |
 
 
