@@ -42,7 +42,7 @@ Define papéis Scrum, backlog de user stories com critérios de aceitação, est
 ## 💻 Parte 3 — Laboratório de Dados (Google Colab)
 Notebook Python com leitura de CSV simulado (`pandas`), estatísticas descritivas e uma auditoria exploratória simples de viés por região.
 📄 [Notebook local](./notebooks/laboratorio_dados_credito.ipynb)
-🔗 **Abrir no Google Colab:** _[colar link do notebook publicado aqui]_
+🔗 **Abrir no Google Colab:** https://colab.research.google.com/github/ruandaolvr/-ia-governanca-projeto/blob/main/notebooks/laboratorio_dados_credito.ipynb
 
 ## 🚀 Parte 4 — Repositório Técnico (este repositório)
 Organização e versionamento do projeto, com histórico de commits comprovando a participação técnica de todos os integrantes.
