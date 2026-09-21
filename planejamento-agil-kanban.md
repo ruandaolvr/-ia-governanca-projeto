@@ -272,7 +272,7 @@ O notebook de análise de dados também deve estar disponível no Google Colab p
 
 **Link do Google Colab:** https://colab.research.google.com/github/ruandaolvr/-ia-governanca-projeto/blob/main/notebooks/laboratorio_dados_credito.ipynb#scrollTo=oHlLkqzdsESF
 
-**Link do Trello:** github.com/ruandaolvr/-ia-governanca-projeto/blob/main/planejamento-agil-kanban.md
+**Link do Trello:** https://trello.com/b/8xYqIO9S/ia-e-governanca-projeto-intregador
 
 ---
 
