@@ -4,7 +4,7 @@
 **Metodologia:** Scrum + Kanban
 **Ferramenta:** Trello
 
-**Link do quadro:** https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador
+**Link do quadro:** https://trello.com/b/8xYqIO9S/ia-e-governanca-projeto-intregador
 
 > Este documento apresenta o planejamento ágil do projeto, a organização da equipe, as User Stories, os critérios de aceitação, as estimativas e as regras utilizadas no quadro Kanban.
 
