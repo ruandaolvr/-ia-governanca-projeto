@@ -4,7 +4,7 @@
 **Metodologia:** Scrum + Kanban
 **Ferramenta:** Trello
 
-**Link do quadro:** COLE_AQUI_O_LINK_DO_TRELLO
+**Link do quadro:** https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador
 
 > Este documento apresenta o planejamento ágil do projeto, a organização da equipe, as User Stories, os critérios de aceitação, as estimativas e as regras utilizadas no quadro Kanban.
 
@@ -270,9 +270,9 @@ A estrutura do projeto inclui:
 
 O notebook de análise de dados também deve estar disponível no Google Colab por meio de um link público.
 
-**Link do Google Colab:** COLE_AQUI_O_LINK_DO_COLAB
+**Link do Google Colab:** https://colab.research.google.com/github/ruandaolvr/-ia-governanca-projeto/blob/main/notebooks/laboratorio_dados_credito.ipynb#scrollTo=oHlLkqzdsESF
 
-**Link do Trello:** COLE_AQUI_O_LINK_DO_TRELLO
+**Link do Trello:** https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador
 
 ---
 
