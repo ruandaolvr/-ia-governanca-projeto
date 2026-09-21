@@ -12,7 +12,7 @@ Projeto interdisciplinar que investiga um caso real de viés algorítmico, prop�
 
 | Integrante | Papel Scrum | GitHub |
 |---|---|---|
-| Ruanda Oliveira | Product Owner / Dev | [@ruandaolvr](https://github.com/ruandaolvr) |
+| Ruanda N. Oliveira | Product Owner / Dev | [@ruandaolvr](https://github.com/ruandaolvr) |
 | Giovanna Vitória | Scrum Master / Dev | [@GV0601](https://github.com/GV0601) |
 
 
@@ -37,7 +37,7 @@ Analisa um caso real de viés em reconhecimento facial (estudo *Gender Shades* e
 ## 📋 Parte 2 — Planejamento Ágil e Quadro Kanban
 Define papéis Scrum, backlog de user stories com critérios de aceitação, estimativas via Planning Poker (escala Fibonacci) e limites de WIP.
 📄 [Acessar planejamento](./planejamento-agil-kanban.md)
-🔗 **Quadro Trello/Miro:** _[colar link do board aqui]_
+🔗 **Quadro Trello:** https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador
 
 ## 💻 Parte 3 — Laboratório de Dados (Google Colab)
 Notebook Python com leitura de CSV simulado (`pandas`), estatísticas descritivas e uma auditoria exploratória simples de viés por região.
@@ -82,6 +82,12 @@ git push origin feature/relatorio-parte1
 3. Cole a URL deste repositório e selecione `notebooks/laboratorio_dados_credito.ipynb`.
 4. Faça upload do arquivo `dados/dados_creditos_simulados.csv` na barra lateral do Colab antes de executar as células.
 5. `Arquivo` → `Salvar uma cópia no Drive`, ative o compartilhamento por link e cole aqui na Parte 3 acima.
+
+## 🔗 Links do projeto
+
+- 📋 [Quadro Kanban no Trello](https://trello.com/invite/b/6ab11a1c46ba40a7346945fc/ATTI44fedb22c38c55580826c87b2b448df7DFB98F45/ia-e-governanca-projeto-intregador)
+- 📊 [Notebook de análise de dados no Google Colab](https://colab.research.google.com/github/ruandaolvr/-ia-governanca-projeto/blob/main/notebooks/laboratorio_dados_credito.ipynb)
+- 💻 [Repositório no GitHub](https://github.com/ruandaolvr/-ia-governanca-projeto)
 
 ## 📜 Licença
 Projeto de uso exclusivamente pedagógico, desenvolvido para a disciplina de Ética em Inteligência Artificial.
