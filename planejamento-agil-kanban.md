@@ -1,115 +1,302 @@
 # Planejamento Ágil e Quadro Kanban
 
 **Projeto:** Projeto Integrador de IA e Governança
-**Metodologia:** Scrum + Kanban (fluxo visual com limites de WIP)
-**Ferramenta sugerida:** Trello ou Miro (link do quadro: _[colar aqui o link público do board]_)
+**Metodologia:** Scrum + Kanban
+**Ferramenta:** Trello
 
-> ⚠️ Este documento é o roteiro para montar o quadro no Trello/Miro. Copie as colunas e os cards descritos abaixo diretamente para a ferramenta escolhida e cole o link do board nesta seção.
+**Link do quadro:** COLE_AQUI_O_LINK_DO_TRELLO
+
+> Este documento apresenta o planejamento ágil do projeto, a organização da equipe, as User Stories, os critérios de aceitação, as estimativas e as regras utilizadas no quadro Kanban.
 
 ---
 
 ## 1. Papéis da Equipe Scrum
 
-| Papel | Integrante | Principais responsabilidades |
-|---|---|---|
-| **Product Owner (PO)** | _[nome]_ | Prioriza o backlog, define critérios de aceitação, garante que as entregas atendam ao enunciado do trabalho. |
-| **Scrum Master** | _[nome]_ | Remove impedimentos, garante que o time respeita os limites de WIP e os prazos, conduz as reuniões rápidas (dailies). |
-| **Dev 1 — Governança/Redação** | _[nome]_ | Responsável técnico pela Parte 1 (relatório). |
-| **Dev 2 — Dados/Python** | _[nome]_ | Responsável técnico pela Parte 3 (Colab). |
-| **Dev 3 — Versionamento/GitHub** | _[nome]_ | Responsável técnico pela Parte 4 (repositório). |
+Como o projeto possui duas integrantes, algumas responsabilidades são acumuladas.
 
-*(Em grupos de 4, uma pessoa acumula dois papéis, ex.: Scrum Master também atua como Dev.)*
+| Integrante             | Papel Scrum         | Principais responsabilidades                                                                                                                                           |
+| ---------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Ruanda N. Oliveira** | Product Owner / Dev | Priorizar o backlog, definir critérios de aceitação, organizar o relatório, acompanhar as entregas e contribuir com o desenvolvimento e versionamento.                 |
+| **Giovanna Vitória**   | Scrum Master / Dev  | Organizar o fluxo do Kanban, acompanhar os limites de WIP, auxiliar na organização das tarefas, desenvolver o notebook de dados e contribuir com a revisão do projeto. |
+
+### Responsabilidades compartilhadas
+
+As duas integrantes participam da revisão das entregas, das decisões de planejamento, das estimativas das tarefas e da validação final do projeto.
+
+---
 
 ## 2. Colunas do Quadro Kanban e Limites de WIP
 
-| Coluna | Limite de WIP | Descrição |
-|---|---|---|
-| **Backlog** | sem limite | Todas as tarefas identificadas, ainda não priorizadas. |
-| **A Fazer (Sprint atual)** | 5 | Tarefas priorizadas pelo PO para o período atual. |
-| **Em Andamento** | **3** | Máximo de 3 cards sendo trabalhados ao mesmo tempo — evita que o time comece muita coisa e termine pouco. |
-| **Em Revisão** | 2 | Card revisado por outro integrante antes de ser considerado pronto (peer review). |
-| **Concluído** | sem limite | Entregue e validado pelo PO. |
+| Coluna                     | Limite de WIP | Descrição                                                                                                               |
+| -------------------------- | ------------: | ----------------------------------------------------------------------------------------------------------------------- |
+| **Backlog**                |    Sem limite | Reúne todas as tarefas identificadas para o projeto.                                                                    |
+| **A Fazer — Sprint Atual** |             5 | Tarefas priorizadas para serem realizadas na sprint atual.                                                              |
+| **Em Andamento**           |             2 | No máximo duas tarefas podem estar sendo realizadas simultaneamente, considerando que a equipe possui duas integrantes. |
+| **Em Revisão**             |             2 | Tarefas concluídas pelo responsável e aguardando revisão da outra integrante.                                           |
+| **Concluído**              |    Sem limite | Tarefas revisadas, validadas e finalizadas.                                                                             |
 
-**Regra de WIP:** nenhum integrante pode puxar um novo card para "Em Andamento" se a coluna já estiver no limite — o time deve primeiro ajudar a destravar/finalizar o que já está em progresso. Isso evita desperdício (trabalho parcial acumulado, retrabalho, perda de contexto).
+### Regra de WIP
 
-## 3. Backlog de User Stories (com critérios de aceitação)
+A equipe não deve iniciar uma nova tarefa quando a coluna já estiver no limite definido. Primeiro, deve finalizar ou ajudar a destravar uma tarefa que já esteja em andamento.
 
-Formato: `Como <papel>, quero <ação>, para <benefício>`
-
-### US-01 — Escolha do caso real
-**Como** Product Owner, **quero** que o time escolha e valide um caso real de viés em IA, **para** ter uma base sólida para o relatório.
-- **Critérios de aceitação:**
-  - [ ] Caso é real, documentado e possui fontes confiáveis (mín. 3 fontes).
-  - [ ] Caso está relacionado a viés/exclusão (reconhecimento facial, crédito, etc.).
-- **Estimativa (Fibonacci):** 3
-
-### US-02 — Redação do relatório de impacto
-**Como** Dev de Governança, **quero** redigir o relatório em Markdown, **para** cumprir os critérios da Parte 1.
-- **Critérios de aceitação:**
-  - [ ] Contém: introdução, caso, falhas identificadas, riscos de exclusão, propostas de regulamentação, conclusão e referências.
-  - [ ] Arquivo salvo em formato `.md`.
-- **Estimativa (Fibonacci):** 5
-
-### US-03 — Montagem do quadro Kanban
-**Como** Scrum Master, **quero** montar o quadro no Trello/Miro com colunas e WIP, **para** organizar visualmente o fluxo do time.
-- **Critérios de aceitação:**
-  - [ ] Colunas criadas conforme a seção 2 deste documento.
-  - [ ] Limites de WIP configurados na ferramenta.
-  - [ ] Board com link de acesso compartilhável.
-- **Estimativa (Fibonacci):** 2
-
-### US-04 — Planning Poker das tarefas
-**Como** time, **quero** estimar o esforço de cada card usando a escala Fibonacci, **para** planejar a sprint com realismo.
-- **Critérios de aceitação:**
-  - [ ] Cada card do backlog tem uma estimativa (1, 2, 3, 5, 8, 13...) registrada.
-  - [ ] Estimativas foram discutidas e acordadas por todo o time (não definidas por uma única pessoa).
-- **Estimativa (Fibonacci):** 1
-
-### US-05 — Notebook de análise de dados
-**Como** Dev de Dados, **quero** criar um notebook no Google Colab que leia um CSV simulado, **para** demonstrar a etapa de exploração de dados de um cientista de dados.
-- **Critérios de aceitação:**
-  - [ ] Notebook importa o CSV com `pandas`.
-  - [ ] Código comentado explicando cada etapa.
-  - [ ] Notebook compartilhado com link de visualização pública.
-- **Estimativa (Fibonacci):** 5
-
-### US-06 — Estrutura e versionamento no GitHub
-**Como** Dev de Versionamento, **quero** criar o repositório com README formal e histórico de commits de todos os membros, **para** comprovar a colaboração técnica do grupo.
-- **Critérios de aceitação:**
-  - [ ] Repositório público com README.md completo.
-  - [ ] Pelo menos 1 branch além da `main` (ex.: `feature/relatorio`) com merge via Pull Request.
-  - [ ] Commits de todos os integrantes, com mensagens descritivas.
-- **Estimativa (Fibonacci):** 8
-
-### US-07 — Revisão final e entrega
-**Como** Product Owner, **quero** revisar todas as partes antes da entrega, **para** garantir que os critérios do professor estão atendidos.
-- **Critérios de aceitação:**
-  - [ ] Todos os 4 itens do enunciado revisados e completos.
-  - [ ] Links (Colab, Trello/Miro, GitHub) testados em aba anônima.
-- **Estimativa (Fibonacci):** 3
-
-## 4. Planning Poker — Registro de Estimativas
-
-| Card | PO | Scrum Master | Dev 1 | Dev 2 | Dev 3 | Estimativa final |
-|---|---|---|---|---|---|---|
-| US-01 | 3 | 3 | 2 | 3 | 3 | **3** |
-| US-02 | 5 | 5 | 5 | 3 | 5 | **5** |
-| US-03 | 2 | 2 | 1 | 2 | 2 | **2** |
-| US-04 | 1 | 1 | 1 | 1 | 1 | **1** |
-| US-05 | 5 | 5 | 3 | 5 | 5 | **5** |
-| US-06 | 8 | 8 | 5 | 8 | 8 | **8** |
-| US-07 | 3 | 3 | 3 | 2 | 3 | **3** |
-
-*(Preencham com os números que o grupo realmente combinar na dinâmica de Planning Poker — os valores acima são um exemplo de referência.)*
-
-## 5. Passo a passo para montar no Trello
-
-1. Criar um quadro novo → nomear "IA e Governança — Projeto Integrador".
-2. Criar as 5 listas (colunas) da seção 2.
-3. Ativar o **Power-Up "Card Limits"** em cada lista para aplicar o WIP (no Trello: clique nos "..." da lista → *Definir limite do WIP*).
-4. Criar um card para cada User Story (US-01 a US-07), com descrição = critérios de aceitação (usar checklist do Trello) e etiqueta = estimativa Fibonacci.
-5. Adicionar todos os integrantes como membros do quadro, atribuindo responsáveis a cada card.
-6. Mover os cards entre colunas ao longo do bimestre e tirar um print do quadro final para anexar à entrega.
+O limite reduz o excesso de tarefas simultâneas e ajuda a equipe a manter o foco nas atividades prioritárias.
 
 ---
-_Documento produzido para fins pedagógicos — Parte 2 do Projeto Integrador de IA e Governança._
+
+## 3. Backlog de User Stories
+
+As User Stories seguem o formato:
+
+> **Como <papel>, quero <ação>, para <benefício>.**
+
+---
+
+### US-01 — Escolha do caso real
+
+**Como Product Owner, quero escolher e validar um caso real de viés em IA, para ter uma base sólida para o relatório.**
+
+**Responsável:** Ruanda N. Oliveira
+
+**Critérios de aceitação:**
+
+* [ ] O caso é real e documentado.
+* [ ] O caso possui pelo menos 3 fontes confiáveis.
+* [ ] O caso está relacionado a viés, discriminação ou exclusão em sistemas de IA.
+
+**Estimativa Fibonacci:** 3 pontos
+
+---
+
+### US-02 — Redação do relatório de impacto
+
+**Como integrante responsável pela governança, quero redigir o relatório em Markdown, para cumprir os critérios da Parte 1 do projeto.**
+
+**Responsável:** Ruanda N. Oliveira
+
+**Critérios de aceitação:**
+
+* [ ] O relatório contém introdução.
+* [ ] O caso analisado está apresentado.
+* [ ] As falhas identificadas estão descritas.
+* [ ] Os riscos de exclusão estão apresentados.
+* [ ] Existem propostas relacionadas à governança e regulamentação.
+* [ ] O relatório possui conclusão.
+* [ ] As referências utilizadas estão registradas.
+* [ ] O arquivo está salvo em formato `.md`.
+
+**Estimativa Fibonacci:** 5 pontos
+
+---
+
+### US-03 — Montagem do quadro Kanban
+
+**Como Scrum Master, quero montar o quadro no Trello com colunas e limites de WIP, para organizar visualmente o fluxo de trabalho da equipe.**
+
+**Responsável:** Giovanna Vitória
+
+**Critérios de aceitação:**
+
+* [ ] As cinco colunas do Kanban foram criadas.
+* [ ] Os limites de WIP foram definidos.
+* [ ] Os sete cards das User Stories foram criados.
+* [ ] O quadro possui link compartilhável.
+* [ ] A organização do quadro corresponde ao planejamento deste documento.
+
+**Estimativa Fibonacci:** 2 pontos
+
+---
+
+### US-04 — Planning Poker das tarefas
+
+**Como equipe, queremos estimar o esforço de cada tarefa utilizando a sequência de Fibonacci, para planejar as atividades de forma realista.**
+
+**Responsáveis:** Ruanda N. Oliveira e Giovanna Vitória
+
+**Critérios de aceitação:**
+
+* [ ] Cada User Story possui uma estimativa.
+* [ ] As estimativas utilizam a sequência Fibonacci.
+* [ ] As estimativas são discutidas e validadas pelas duas integrantes.
+* [ ] Os valores finais são registrados nos cards do Trello.
+
+**Estimativa Fibonacci:** 1 ponto
+
+---
+
+### US-05 — Notebook de análise de dados
+
+**Como integrante responsável pelos dados, quero criar e executar um notebook no Google Colab utilizando um CSV simulado, para demonstrar uma etapa de exploração e auditoria de dados.**
+
+**Responsável:** Giovanna Vitória
+
+**Critérios de aceitação:**
+
+* [ ] O notebook importa o arquivo CSV utilizando `pandas`.
+* [ ] O notebook apresenta uma inspeção geral da base.
+* [ ] São apresentadas estatísticas descritivas.
+* [ ] É realizada uma análise de aprovação por região.
+* [ ] É realizada uma comparação da renda média por decisão.
+* [ ] O código possui comentários explicativos.
+* [ ] O notebook possui link público para visualização.
+
+**Estimativa Fibonacci:** 5 pontos
+
+---
+
+### US-06 — Estrutura e versionamento no GitHub
+
+**Como responsável pelo versionamento, quero organizar o repositório no GitHub com README e histórico de alterações, para documentar o desenvolvimento do projeto.**
+
+**Responsável:** Ruanda N. Oliveira
+
+**Critérios de aceitação:**
+
+* [ ] O repositório é público.
+* [ ] O `README.md` apresenta o projeto e sua estrutura.
+* [ ] Os principais arquivos do projeto estão organizados em pastas.
+* [ ] Existe histórico de commits descritivos.
+* [ ] As duas integrantes participam do desenvolvimento e/ou documentação do projeto.
+* [ ] Caso exigido pelo professor, é criada uma branch adicional à `main` e realizado um Pull Request.
+
+**Estimativa Fibonacci:** 8 pontos
+
+---
+
+### US-07 — Revisão final e entrega
+
+**Como equipe, queremos revisar todas as partes antes da entrega, para garantir que os critérios do projeto estejam atendidos.**
+
+**Responsáveis:** Ruanda N. Oliveira e Giovanna Vitória
+
+**Critérios de aceitação:**
+
+* [ ] As partes do projeto foram revisadas.
+* [ ] Os arquivos estão organizados no GitHub.
+* [ ] O notebook está funcionando.
+* [ ] O link do Google Colab foi testado.
+* [ ] O link do Trello foi testado.
+* [ ] O link do GitHub foi testado.
+* [ ] Os documentos não possuem campos de modelo ou informações de exemplo.
+* [ ] O projeto está pronto para entrega.
+
+**Estimativa Fibonacci:** 3 pontos
+
+---
+
+## 4. Planning Poker — Registro das Estimativas
+
+A equipe utiliza a sequência de Fibonacci para estimar o esforço relativo das User Stories:
+
+**1, 2, 3, 5, 8, 13...**
+
+| Card  | Ruanda | Giovanna | Estimativa final |
+| ----- | -----: | -------: | ---------------: |
+| US-01 |      3 |        3 |                3 |
+| US-02 |      5 |        5 |                5 |
+| US-03 |      2 |        2 |                2 |
+| US-04 |      1 |        1 |                1 |
+| US-05 |      5 |        5 |                5 |
+| US-06 |      8 |        8 |                8 |
+| US-07 |      3 |        3 |                3 |
+
+### Observação
+
+Os valores acima representam as estimativas finais utilizadas para organizar os cards do Trello. As duas integrantes devem revisar e confirmar os valores durante a atividade de Planning Poker.
+
+---
+
+## 5. Organização dos Cards no Trello
+
+Os cards devem ser distribuídos inicialmente na coluna **Backlog**.
+
+### Backlog
+
+* US-01 — Escolha do caso real
+* US-02 — Redação do relatório de impacto
+* US-03 — Montagem do quadro Kanban
+* US-04 — Planning Poker das tarefas
+* US-05 — Notebook de análise de dados
+* US-06 — Estrutura e versionamento no GitHub
+* US-07 — Revisão final e entrega
+
+Conforme as atividades forem realizadas, os cards devem avançar pelo fluxo:
+
+**Backlog → A Fazer — Sprint Atual → Em Andamento → Em Revisão → Concluído**
+
+---
+
+## 6. Passo a passo para utilização do Trello
+
+1. Criar o quadro **"IA e Governança — Projeto Integrador"**.
+2. Criar as cinco listas:
+
+   * Backlog
+   * A Fazer — Sprint Atual
+   * Em Andamento — Máx. 2
+   * Em Revisão — Máx. 2
+   * Concluído
+3. Definir o limite de cinco cards para a lista **A Fazer — Sprint Atual**, quando a ferramenta permitir.
+4. Manter no máximo dois cards em **Em Andamento**.
+5. Manter no máximo dois cards em **Em Revisão**.
+6. Criar os sete cards correspondentes às User Stories.
+7. Adicionar os critérios de aceitação como checklists.
+8. Registrar a estimativa Fibonacci em cada card.
+9. Adicionar Ruanda e Giovanna como integrantes do quadro.
+10. Atribuir cada card à responsável indicada neste documento.
+11. Mover os cards entre as colunas conforme o andamento das atividades.
+12. Ao finalizar o projeto, revisar os cards e mover para **Concluído** somente as tarefas realmente finalizadas.
+
+---
+
+## 7. Integração com o GitHub e Google Colab
+
+O projeto utiliza o GitHub como repositório principal para armazenamento e versionamento dos arquivos.
+
+A estrutura do projeto inclui:
+
+```text
+-ia-governanca-projeto/
+│
+├── README.md
+├── relatorio-impacto-governanca.md
+├── planejamento-agil-kanban.md
+│
+├── dados/
+│   └── dados_creditos_simulados.csv
+│
+└── notebooks/
+    └── laboratorio_dados_credito.ipynb
+```
+
+O notebook de análise de dados também deve estar disponível no Google Colab por meio de um link público.
+
+**Link do Google Colab:** COLE_AQUI_O_LINK_DO_COLAB
+
+**Link do Trello:** COLE_AQUI_O_LINK_DO_TRELLO
+
+---
+
+## 8. Definition of Done — Definição de Pronto
+
+Uma tarefa será considerada concluída quando:
+
+* [ ] A atividade descrita no card tiver sido realizada.
+* [ ] Os critérios de aceitação tiverem sido atendidos.
+* [ ] O material produzido estiver salvo no local correto.
+* [ ] A outra integrante tiver realizado a revisão quando aplicável.
+* [ ] Não houver pendências relacionadas à tarefa.
+* [ ] O card puder ser movido para a coluna **Concluído**.
+
+---
+
+## 9. Objetivo do Planejamento
+
+O planejamento utiliza Scrum e Kanban para organizar o desenvolvimento do Projeto Integrador de IA e Governança.
+
+A combinação das duas abordagens permite visualizar as tarefas, distribuir responsabilidades, limitar o trabalho simultâneo, acompanhar o progresso e revisar as entregas antes da conclusão.
+
+O quadro Kanban e o histórico do GitHub também servem como registros do processo de desenvolvimento realizado pela equipe.
+
+---
+
+**Documento produzido para fins pedagógicos — Parte 2 do Projeto Integrador de IA e Governança.**
